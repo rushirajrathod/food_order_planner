@@ -53,19 +53,19 @@ class DatabaseHelper {
   Future _populateInitialData(Database db) async {
     // Requirement 1: Store at least 20 preferred food items
     List<FoodItem> items = [
-      FoodItem(name: 'Classic Burger', cost: 8.99),
+      FoodItem(name: 'Veggie Burger', cost: 9.50),
       FoodItem(name: 'Cheese Pizza Slice', cost: 3.50),
-      FoodItem(name: 'Caesar Salad', cost: 7.99),
+      FoodItem(name: 'Greek Salad', cost: 8.50),
       FoodItem(name: 'Diet Coke', cost: 1.99),
       FoodItem(name: 'Large Fries', cost: 3.99),
-      FoodItem(name: 'Spaghetti Bolognese', cost: 12.50),
-      FoodItem(name: 'Grilled Steak', cost: 18.00),
+      FoodItem(name: 'Pasta Marinara', cost: 11.00),
+      FoodItem(name: 'Grilled Cheese Sandwich', cost: 5.50),
       FoodItem(name: 'Tomato Soup', cost: 4.50),
-      FoodItem(name: 'Club Sandwich', cost: 6.50),
-      FoodItem(name: 'Beef Tacos (3)', cost: 9.00),
-      FoodItem(name: 'Chicken Burrito', cost: 8.50),
-      FoodItem(name: 'Sushi Roll', cost: 11.00),
-      FoodItem(name: 'Fried Chicken (2pc)', cost: 7.50),
+      FoodItem(name: 'Avocado Toast', cost: 7.50),
+      FoodItem(name: 'Bean Tacos (3)', cost: 8.50),
+      FoodItem(name: 'Veggie Burrito', cost: 9.00),
+      FoodItem(name: 'Cucumber Avocado Roll', cost: 8.00),
+      FoodItem(name: 'Falafel Wrap', cost: 8.00),
       FoodItem(name: 'Vanilla Ice Cream', cost: 3.00),
       FoodItem(name: 'Black Coffee', cost: 2.50),
       FoodItem(name: 'Green Tea', cost: 2.00),
@@ -73,6 +73,11 @@ class DatabaseHelper {
       FoodItem(name: 'Glazed Donut', cost: 1.50),
       FoodItem(name: 'Berry Smoothie', cost: 5.50),
       FoodItem(name: 'Veggie Wrap', cost: 7.00),
+      FoodItem(name: 'Macaroni and Cheese', cost: 10.50),
+      FoodItem(name: 'Mushroom Risotto', cost: 13.50),
+      FoodItem(name: 'Hummus & Pita Plate', cost: 6.50),
+      FoodItem(name: 'Chocolate Cake Slice', cost: 4.50),
+      FoodItem(name: 'Fresh Fruit Salad', cost: 5.00),
     ];
 
     for (var item in items) {
